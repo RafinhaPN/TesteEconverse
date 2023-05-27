@@ -1,0 +1,135 @@
+.loja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1340px;
+    height: 500px;
+}
+
+.vitrine {
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.32);
+    border-radius: 10px;
+    height: 455px;
+    width: 318px;
+    gap: 4px;
+    left: 0px;
+    top: 5px;
+    margin: 18px;
+
+
+}
+
+img {
+
+    width: 247px;
+    height: 248;
+    Top: 22px;
+    Left: 343px;
+    margin: 4px 6px auto 50px;
+
+}
+
+.description {
+    margin: 2px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.btn_comprar {
+    Width: 245px;
+    Height: 44px;
+    Top: 1px;
+    Left: 0px;
+    border-radius: 4px;
+    background: rgba(247, 25, 99, 1);
+    color: rgba(255, 255, 255, 1);
+    margin: auto 27px;
+}
+
+.btn_comprar:hover {
+    background: rgb(224, 177, 193);
+
+}
+
+.painel {
+    position: absolute;
+    width: 1264px;
+    height: 40px;
+    left: 60px;
+    top: 40px;
+    border: 1px solid rgba(189, 189, 189, 1);
+}
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 58px;
+    gap: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px -1px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    Width: Fill(211.5px);
+    Height: 40px;
+    Padding: 12px, 58px, 12px, 58px;
+    Gap: 10px
+}
+
+.texto {
+    margin: 37px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    padding: 12px;
+    border-bottom: none;
+    border-top: none;
+    color: rgba(189, 189, 189, 1);
+}
+
+.celular {
+    color: red;
+    margin: 37px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    padding: 12px;
+    border-bottom: none;
+    border-top: none;
+}
+
+h3{
+    position: absolute;
+width: 350px;
+height: 45px;
+left: 545px;
+top: 2px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+margin-bottom: 5px;
+color: #F71963;
+}
